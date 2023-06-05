@@ -124,5 +124,6 @@ if __name__ == '__main__':
     import tweepy, random, hashlib, validators, urllib.parse, requests, json
     freer_user = tweepy.Client(consumer_key=twitter_shit['api_key'], consumer_secret=twitter_shit['api_key_secret'], access_token=twitter_shit['acc_token'], access_token_secret=twitter_shit['acc_token_secret'])
     # app.run(port=8000)
-    app.run(port=5001, debug=True)
+    # app.run(port=5001, debug=True)
     # app.run()
+    app.run(host='0.0.0.0')

@@ -1,0 +1,42 @@
+@font-face{font-family:'irsans-bold';
+    src:url(../fonts/iransansweb_bold.eot?) format("embedded-opentype"),url(../fonts/iransansweb_bold.ttf) format("truetype"),url(../fonts/iransansweb_bold.woff) format("woff"),url(../fonts/iransansweb_bold.woff2) format("woff2")}
+@font-face{font-family:'irsans';
+    src:url(../fonts/iransansweb.eot?) format("embedded-opentype"),url(../fonts/iransansweb.ttf) format("truetype"),url(../fonts/iransansweb.woff) format("woff"),url(../fonts/iransansweb.woff2) format("woff2")}
+
+.dir-fa {
+    direction: rtl;
+}
+.fa-jus {
+    text-align: justify;
+}
+.irsans {
+    font-family: irsans;
+}
+.irsans-bold {
+    font-family: irsans-bold;
+}
+.huge-text {
+    --text-huge: 6rem;
+    line-height: 1.4;
+    text-align: justify;
+    direction: rtl;
+}
+.p1-down {
+    font-family: irsans-bold;
+    direction: rtl;  
+    font-size: 20px;
+}
+.p1-down img {
+    width: 35px;
+}
+.smoothscroll-fa {
+    font-family: iransans;
+}
+#ganjoorid {
+  font-size: 27px;
+}
+
+.ganjoor-block {
+    direction: rtl;
+    text-align: center;
+}
